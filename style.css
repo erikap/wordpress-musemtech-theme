@@ -240,3 +240,22 @@ input[type="submit"]:active {
 .sf-menu > li:before {
     background: #FFF;
 }
+
+
+/** Custom styling */
+img.footer-logo {
+    width: 0px;
+}
+
+.logos .logo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
