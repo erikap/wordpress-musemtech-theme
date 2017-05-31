@@ -1,0 +1,242 @@
+/*
+ Theme Name:   Wisteria Child
+ Description:  Wisteria Child Theme
+ Author:       mu.semte.ch
+ Author URI:   https://mu.semte.ch
+ Template:     wisteria
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  wisteria-child
+*/
+
+pre {
+    font-size: 1rem;
+}
+
+pre:last-child {
+    margin-bottom: 1.75rem;
+}
+
+a,
+a:visited {
+    color: #F44336;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #FF7066;
+}
+
+blockquote {
+    border-left: 6px solid #F44336;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background: #F44336;
+    border: 1px solid #FF7066;
+}
+
+button:hover, button:focus, button:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+    background: #FF7066;
+}
+
+.toggle-menu-wrapper a,
+.toggle-menu-wrapper a:visited {
+    color: #F44336;
+}
+
+.toggle-menu-wrapper a:hover,
+.toggle-menu-wrapper a:focus,
+.toggle-menu-wrapper a:active {
+    color: #FF7066;
+}
+
+.has-custom-header .site-header .toggle-menu-wrapper a:hover,
+.has-custom-header .site-header .toggle-menu-wrapper a:focus,
+.has-custom-header .site-header .toggle-menu-wrapper a:active {
+    color: #F44336;
+}
+
+.site-primary-menu-responsive {
+    background: #F44336;
+}
+
+.site-primary-menu-responsive .primary-menu-responsive-close {
+    color: #F44336;
+}
+
+.site-primary-menu-responsive .primary-menu-responsive-close:hover {
+    color: #FF7066;
+}
+
+.primary-menu-responsive li.current_page_item > a,
+.primary-menu-responsive li.current-menu-item > a,
+.primary-menu-responsive li.current_page_ancestor > a,
+.primary-menu-responsive li.current-menu-ancestor > a,
+.primary-menu-responsive li.current_page_parent > a,
+.primary-menu-responsive li.current-menu-parent > a {
+    color: #F44336;
+}
+
+.primary-menu-responsive .dropdown-toggle.toggle-on:after {
+    color: #F44336;
+}
+
+.pagination .page-numbers {
+    background: #F44336;
+}
+
+.pagination .page-numbers:hover {
+    background: #F44336;
+}
+
+.pagination .current.page-numbers {
+    background: #F44336;
+}
+
+.post-navigation a:hover,
+.post-navigation a:focus,
+.post-navigation a:active {
+    color: #F44336;
+}
+
+.post-navigation .meta-nav {
+    color: #F44336;
+}
+
+.comment-navigation .nav-previous a:hover,
+.comment-navigation .nav-previous a:focus,
+.comment-navigation .nav-previous a:active,
+.comment-navigation .nav-next a:hover,
+.comment-navigation .nav-next a:focus,
+.comment-navigation .nav-next a:active,
+.image-navigation .nav-previous a:hover,
+.image-navigation .nav-previous a:focus,
+.image-navigation .nav-previous a:active,
+.image-navigation .nav-next a:hover,
+.image-navigation .nav-next a:focus,
+.image-navigation .nav-next a:active {
+    color: #FF7066;
+}
+
+.comment-navigation .nav-previous a:before,
+.image-navigation .nav-previous a:before {
+    color: #FF7066;
+}
+
+.comment-navigation .nav-next a:after,
+.image-navigation .nav-next a:after {
+    color: #FF7066;
+}
+
+.site-info {
+    background: #F44336;
+}
+
+.page-title span {
+    color: #FF7066;
+}
+
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active,
+.page-title a:hover,
+.page-title a:focus,
+.page-title a:active {
+    color: #FF7066;
+}
+
+.page-links a:hover {
+    background: #F44336;
+}
+
+.page-links > span {
+    background: #F44336;
+}
+
+.more-link,
+.more-link:visited {
+    background: #F44336;
+}
+
+.more-link:hover,
+.more-link:focus,
+.more-link:active {
+    background: #FF7066;
+}
+
+.entry-meta .posted-on a,
+.entry-meta .posted-on a:visited {
+    color: #F44336;
+}
+
+.entry-meta .posted-on a:hover,
+.entry-meta .posted-on a:focus,
+.entry-meta .posted-on a:active {
+    color: #FF7066;
+}
+
+.comment-list .bypostauthor > .comment-body {
+    border-bottom: 3px solid #F44336;
+}
+
+.comment-list .comment-awaiting-moderation {
+    color: #FF7066;
+}
+
+.search-form .search-submit {
+    background: #F44336;
+}
+
+.search-form .search-submit:hover {
+    background: #FF7066;
+}
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #FF7066;
+}
+
+.main-navigation {
+    background: #F44336;
+}
+
+.sf-menu a:hover,
+.sf-menu a:focus,
+.sf-menu a:active {
+    color: #FF7066;
+}
+
+.sf-menu ul a:hover,
+.sf-menu ul a:focus,
+.sf-menu ul a:active {
+    color: #FF7066;
+}
+
+/* Current Item Indicator */
+.sf-menu li.current_page_item > a,
+.sf-menu li.current-menu-item > a,
+.sf-menu li.current_page_ancestor > a,
+.sf-menu li.current-menu-ancestor > a,
+.sf-menu li.current_page_parent > a,
+.sf-menu li.current-menu-parent > a {
+    color: #FF7066;    
+}
+
+/* List Separator */
+.sf-menu > li:before {
+    background: #FFF;
+}
