@@ -97,6 +97,7 @@ input[type="submit"]:active {
 }
 
 .pagination .page-numbers {
+    color: #FFFFFF;
     background: #F44336;
 }
 
@@ -151,6 +152,9 @@ input[type="submit"]:active {
     color: #FF7066;
 }
 
+.entry-meta .posted-on a:before,
+.entry-meta .byline:before,
+.entry-meta .post-first-category a:before,
 .entry-title a:hover,
 .entry-title a:focus,
 .entry-title a:active,
